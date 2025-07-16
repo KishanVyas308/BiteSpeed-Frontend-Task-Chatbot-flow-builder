@@ -1,5 +1,5 @@
 // Types for the chatbot flow builder
-import type { Node, Edge } from 'reactflow';
+import type { Node } from 'reactflow';
 
 export interface TextNodeData {
   text: string;
