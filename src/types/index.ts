@@ -11,7 +11,7 @@ export interface CustomNode extends Node {
   type: 'textNode';
 }
 
-export interface CustomEdge extends Edge {
+export interface CustomEdge  {
   id: string;
   source: string;
   target: string;
