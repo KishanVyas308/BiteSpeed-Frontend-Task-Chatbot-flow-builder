@@ -1,0 +1,52 @@
+/* App.css - Global styles for the chatbot flow builder */
+/* Tailwind handles most styling, this file is for any custom overrides */
+
+/* React Flow custom styles */
+.react-flow__edge {
+  cursor: pointer;
+}
+
+.react-flow__edge:hover {
+  stroke: #1d4ed8 !important;
+  stroke-width: 3px !important;
+}
+
+.react-flow__edge.selected {
+  stroke: #1d4ed8 !important;
+  stroke-width: 3px !important;
+}
+
+.react-flow__connection-line {
+  stroke: #3b82f6;
+  stroke-width: 2px;
+}
+
+.react-flow__handle {
+  cursor: crosshair;
+}
+
+.react-flow__handle:hover {
+  transform: scale(1.1);
+}
+
+.react-flow__handle.connecting {
+  background: #10b981 !important;
+}
+
+/* Custom scrollbar for sidebar */
+.overflow-y-auto::-webkit-scrollbar {
+  width: 6px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
