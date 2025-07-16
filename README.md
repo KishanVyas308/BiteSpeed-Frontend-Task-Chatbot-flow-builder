@@ -2,6 +2,15 @@
 
 A modern, interactive chatbot flow builder built with React, TypeScript, React Flow, and Tailwind CSS. This application allows users to create and manage chatbot conversation flows through an intuitive drag-and-drop interface.
 
+## Photos
+<img width="1919" height="986" alt="image" src="https://github.com/user-attachments/assets/eaef8e3e-eb65-4e67-ad0b-b06975372429" />
+<img width="1919" height="987" alt="image" src="https://github.com/user-attachments/assets/35717679-680c-4b88-a3c1-67d1de0ea1e9" />
+<img width="1919" height="988" alt="image" src="https://github.com/user-attachments/assets/d8089405-768b-4e19-b6bf-cbd9b888f33a" />
+<img width="1919" height="984" alt="image" src="https://github.com/user-attachments/assets/518382e0-3be6-4568-b4e3-25dc30a64475" />
+
+
+
+
 ## 🚀 Features
 
 ### Core Functionality
