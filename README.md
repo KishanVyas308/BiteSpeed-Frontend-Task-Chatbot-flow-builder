@@ -41,7 +41,7 @@ A modern, interactive chatbot flow builder built with React, TypeScript, React F
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/KishanVyas308/BiteSpeed-Frontend-Task-Chatbot-flow-builder
    cd "BiteSpeed Frontend Task Chatbot flow builder"
    ```
 
@@ -145,43 +145,7 @@ src/
 └── main.tsx                      # Application entry point
 ```
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/new-feature`
-3. Commit your changes: `git commit -am 'Add new feature'`
-4. Push to the branch: `git push origin feature/new-feature`
-5. Submit a pull request
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🔗 Links
-
-- **Live Demo**: [Deploy on Vercel/Netlify]
-- **Repository**: [GitHub Repository]
-- **Documentation**: [Additional docs if needed]
-
----
-
-Built with ❤️ for the BiteSpeed Frontend Task
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
